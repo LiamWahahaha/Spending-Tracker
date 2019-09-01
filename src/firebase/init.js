@@ -2,13 +2,14 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 
 // The configuration below is not sensitive data. You can serenely add your config here
-const config = {
-  apiKey: 'AIzaSyCe6CSzOUs6_Ij_VHa6hancdEi6CNBtw7c',
-  authDomain: 'bento-starter.firebaseapp.com',
-  databaseURL: 'https://bento-starter.firebaseio.com',
-  projectId: 'bento-starter',
-  storageBucket: 'bento-starter.appspot.com',
-  messagingSenderId: '458464977217'
+const firebaseConfig = {
+  apiKey: 'AIzaSyBgewMJ-ykF-zRkrQLppDUaOVj0d-v_5DY',
+  authDomain: 'spending-tracker-f72c3.firebaseapp.com',
+  databaseURL: 'https://spending-tracker-f72c3.firebaseio.com',
+  projectId: 'spending-tracker-f72c3',
+  storageBucket: '',
+  messagingSenderId: '652172023757',
+  appId: '1:652172023757:web:4cacb5223c8e3377'
 }
-
-firebase.initializeApp(config)
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig)
